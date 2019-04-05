@@ -36,11 +36,21 @@
     - 2. Clique em Inicializar Repositório
     - 3. Escolha sua pasta
     - ![](git5.png)
-- Todos os arquivos da pasta devem aparecer agora no controle de versão.
-    - ![](git6.png)
+
+- Salvando os arquivos localmente
+    - Todos os arquivos da pasta devem aparecer agora no controle de versão. ![](git6.png)
     - Você pode individualmente ir clicando no + que aparecerá quando pusero + sobre cada arquivo ou clicar no + do lado de CHANGES para adicionar todos os arquivos para serem salvos.
     - O status dos arquivos adicionados muda de `U`(Unstaged) para `A`(Added).
-    - Arquivos modificados aparecem com letra `M`. Clique no + para adicioná-los.
+    - Arquivos modificados aparecem com letra `M`. Clique no + para adicioná-los. ![](git7.png)
+    - Após adicionar todas os arquivos nas versões que deseja salvar. Escreva a mensagem e clique no botão de commit.
+    - Pronto, seus arquivos estão salvos localmente. Se for até o terminal e digitar `git log` em qualquer lugar dentro do diretório raiz, poderá ver o número do seu commit e sua mensagem. ![](git8.png)
+- Vinculando seu repositório local com seu repositório Remoto.
+    - Entre na usa conta do github e crie seu repositório remoto. Não adicione o README. ![](git9.png)
+    - Copie o link do repositório. ![](git10.png)
+    - No VSCode abra a Paleta de Comandos, normalmente através do atalho `Ctrl + Shift + P`
+    - Procure e execute o comando `Git: Add Remote`
+    - Digite o link do seu repositório ![](git11.png), digite Enter 2 vezes.
+    
     - Fazendo o primeiro push ![](github.png)
 
 - Instalar [MinGW]
