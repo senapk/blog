@@ -1,5 +1,5 @@
+# Instalando, Configurando e Trabalhando com Repositórios Git no VSCode.
 
-!toc
 
 ## Instalando o VSCode
 - Instalar [VSCode](https://code.visualstudio.com/)
@@ -45,13 +45,18 @@
     - Após adicionar todas os arquivos nas versões que deseja salvar. Escreva a mensagem e clique no botão de commit.
     - Pronto, seus arquivos estão salvos localmente. Se for até o terminal e digitar `git log` em qualquer lugar dentro do diretório raiz, poderá ver o número do seu commit e sua mensagem. ![](git8.png)
 - Vinculando seu repositório local com seu repositório Remoto.
-    - Entre na usa conta do github e crie seu repositório remoto. Não adicione o README. ![](git9.png)
-    - Copie o link do repositório. ![](git10.png)
-    - No VSCode abra a Paleta de Comandos, normalmente através do atalho `Ctrl + Shift + P`
-    - Procure e execute o comando `Git: Add Remote`
-    - Digite o link do seu repositório ![](git11.png), digite Enter 2 vezes.
-    
-    - Fazendo o primeiro push ![](github.png)
+    - Opção 1: via vscode
+        - Entre na usa conta do github e crie seu repositório remoto. Não adicione o README. ![](git9.png)
+        - Copie o link do repositório. ![](git10.png)
+        - No VSCode abra a Paleta de Comandos, normalmente através do atalho `Ctrl + Shift + P`
+        - Procure e execute o comando `Git: Add Remote`
+        - No nome do repositório remoto coloque `origin`
+        - Na url, coloque a url, no meu caso `https://github.com/senapk/blog.git`
+    - Via linha de comando
+        - Copie e cole essa linha no terminal do vscode ![](git12.png)
+- Enviando ao servidor Remoto.
+    - Após adicionar e comitar suas alterações execute o comando "Git: Push" a partir da paleta ou do `...` na aba do controle de versão.
+    - No primeiro envio, basta confirmar que você deseja criar o ramo principal `master` no servidor remoto, e a partir de então, basta dar o push para enviar as atualizações.
 
 - Instalar [MinGW]
     - Selecionar Pacotes
