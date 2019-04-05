@@ -51,13 +51,22 @@
     - Entre na usa conta do github e crie seu repositório remoto. Não adicione o README. 
         - ![](git9.png)
     - Opção 1: via vscode
+<<<<<<< HEAD
+=======
+        - Entre na usa conta do github e crie seu repositório remoto. Não adicione o README. 
+            - ![](git9.png)
+>>>>>>> f21d0e198c43a2da9ef755c407578b75e862e0ba
         - Copie o link do repositório. 
             - ![](git10.png)
         - No VSCode abra a Paleta de Comandos, normalmente através do atalho `Ctrl + Shift + P`
         - Procure e execute o comando `Git: Add Remote`
         - No nome do repositório remoto coloque `origin`
         - Na url, coloque a url, no meu caso `https://github.com/senapk/blog.git`
+<<<<<<< HEAD
     - Opção 2: via linha de comando
+=======
+    - Via linha de comando
+>>>>>>> f21d0e198c43a2da9ef755c407578b75e862e0ba
         - Copie e cole essa linha no terminal do vscode 
             - ![](git12.png)
 - Enviando ao servidor Remoto.
