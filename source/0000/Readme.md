@@ -7,9 +7,12 @@
 
 ## Instalando o Git
 - Instalar [Git](https://git-scm.com/download)
-- Baixe o git ![](git1.png)
-- Instaleos pacotes **Git Bash** e **Git Gui** ![](git2.png)
-- Selectione o VSCode como Editor Default do Git ![](git3.png)
+- Baixe o git 
+    - ![](git1.png)
+- Instaleos pacotes **Git Bash** e **Git Gui** 
+    - ![](git2.png)
+- Selectione o VSCode como Editor Default do Git 
+    - ![](git3.png)
 - **Use as opções default para todas as próximas perguntas na instalação do Git**.
 - Ao final, você deve ter um aplicativo de nome **Git Bash** acessível pelo menu iniciar.
 - Abra o Git Bash e digite os seguintes comandos para definir seu nome de usuário e email:
